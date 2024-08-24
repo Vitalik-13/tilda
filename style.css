@@ -685,6 +685,9 @@ html {
   .digit-list {
     width: 97%;
   }
+  .link-container {
+    margin-bottom: 50px;
+  }
   .prev-titel-one-section {
     padding-top: 85px;
   }
