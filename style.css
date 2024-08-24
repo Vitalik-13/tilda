@@ -570,6 +570,9 @@
     display: flex;
     justify-content: center;
   }
+  .menu {
+    width: 40%;
+  }
   .form {
     display: flex;
     flex-direction: column;
@@ -642,6 +645,9 @@
   .digit-list {
     width: 90%;
   }
+  .small-section-paragraph {
+    text-align: center;
+  }
   .digit-container {
     margin-bottom: 100px !important;
   }
@@ -650,6 +656,9 @@
   }
   .form-container {
     width: 90%;
+  }
+  .menu {
+    width: 50%;
   }
   .form {
     width: 100%;
@@ -673,23 +682,35 @@
   }
   .prev-title {
     font-size: 36px;
+    line-height: 40px;
+    margin: 70px 0;
+  }
+  .text-icons-container {
+    gap: 40px 0;
+  }
+  .last-section {
+    height: 70vh;
   }
 }
 @media (max-width: 500px) {
   .main-title {
-    padding-top: 120px;
+    padding-top: 60px;
     font-size: 30px;
     line-height: 40px;
   }
   .prev-title {
     font-size: 26px;
   }
+  .small-title {
+    padding-top: 0;
+    padding-bottom: 40px;
+  }
   .title-show-hide-list {
     font-size: 20px;
   }
   .white-color {
-    max-width: 400px;
-    padding: 20px 30px;
+    max-width: 380px;
+    padding: 20px 25px;
   }
   .input-lable {
     font-size: 14px;
@@ -700,14 +721,20 @@
   .none-margin {
     margin: 0;
   }
+  .menu {
+    width: 60%;
+  }
   .section-one {
     padding-bottom: 20px;
   }
   .main-paragraph {
     text-align: center;
-    /* padding-left: 15px; */
   }
   .prev-titel-one-section {
-    padding: 50px 0;
+    padding-bottom: 0;
+  }
+  .small-padding {
+    padding-top: 0px;
+    padding-bottom: 50px;
   }
 }
