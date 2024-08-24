@@ -587,7 +587,7 @@
     bottom: 55%;
   }
   .telegram-lable {
-    bottom: 24%;
+    bottom: 26%;
   }
   .phone-input {
     width: 100%;
@@ -709,7 +709,7 @@
     font-size: 20px;
   }
   .white-color {
-    max-width: 380px;
+    max-width: 320px;
     padding: 20px 25px;
   }
   .input-lable {
@@ -736,5 +736,13 @@
   .small-padding {
     padding-top: 0px;
     padding-bottom: 50px;
+  }
+  .link-text-container {
+    font-size: 16px;
+  }
+}
+@media (max-width: 500px) {
+  .name-lablel {
+    bottom: 55%;
   }
 }
