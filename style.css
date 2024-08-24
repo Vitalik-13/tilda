@@ -190,13 +190,13 @@ html {
   padding: 0 20px;
   width: 240px;
   height: 56px;
-  padding-left: 50px; /* Adjust padding to accommodate the flag */
+  padding-left: 50px;
   box-sizing: border-box;
 }
 
 .flag-dropdown {
   position: absolute;
-  left: 10px; /* Position flag inside the input */
+  left: 10px;
   display: flex;
   align-items: center;
   cursor: pointer;
@@ -411,7 +411,9 @@ html {
   background-size: cover;
   color: white;
 }
-
+.none-padding {
+  padding-top: 0;
+}
 .small-title {
   font-size: 48px;
 }
@@ -685,6 +687,9 @@ html {
   }
   .prev-titel-one-section {
     padding-top: 85px;
+  }
+  .none-padding {
+    padding-top: 0;
   }
   .prev-title {
     font-size: 36px;
