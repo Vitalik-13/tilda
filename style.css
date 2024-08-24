@@ -653,7 +653,7 @@ html {
   .digit-list {
     width: 90%;
   }
-  .dropdown-list li:hover {
+  .wrapper-svg:hover {
     background-color: white;
   }
   .small-section-paragraph {
