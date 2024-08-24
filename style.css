@@ -653,6 +653,7 @@
   }
   .form {
     width: 100%;
+    padding-bottom: 20px;
   }
   .white-color {
     max-width: 600px;
@@ -663,14 +664,12 @@
     gap: 30px;
   }
 }
-/* @media (max-width: 683px) {
-  .input-lable {
-    bottom: 45%;
-  }
-} */
 @media (max-width: 600px) {
   .digit-list {
     width: 97%;
+  }
+  .prev-titel-one-section {
+    padding-top: 120px;
   }
   .prev-title {
     font-size: 36px;
@@ -688,6 +687,13 @@
   }
   .white-color {
     max-width: 400px;
-    padding: 10px 30px;
+    padding: 20px 30px;
+  }
+  .input-lable {
+    padding-left: 15px;
+    font-size: 14px;
+  }
+  .none-margin {
+    margin: 0;
   }
 }
