@@ -669,7 +669,7 @@
     width: 97%;
   }
   .prev-titel-one-section {
-    padding-top: 120px;
+    padding-top: 85px;
   }
   .prev-title {
     font-size: 36px;
@@ -677,7 +677,9 @@
 }
 @media (max-width: 500px) {
   .main-title {
+    padding-top: 120px;
     font-size: 30px;
+    line-height: 40px;
   }
   .prev-title {
     font-size: 26px;
@@ -690,10 +692,22 @@
     padding: 20px 30px;
   }
   .input-lable {
-    padding-left: 15px;
     font-size: 14px;
+  }
+  .name-lablel {
+    bottom: 50%;
   }
   .none-margin {
     margin: 0;
+  }
+  .section-one {
+    padding-bottom: 20px;
+  }
+  .main-paragraph {
+    text-align: center;
+    /* padding-left: 15px; */
+  }
+  .prev-titel-one-section {
+    padding: 50px 0;
   }
 }
