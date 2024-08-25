@@ -34,22 +34,20 @@ document
   .addEventListener("input", function (event) {
     let input = event.target.value;
 
-    // Видаляємо всі небажані символи
     input = input.replace(/\D/g, "");
 
-    // Форматуємо номер телефону
     let formatted = "";
     if (input.length > 0) {
-      formatted = input.substring(0, 3); // Перша частина номера без форматування
+      formatted = input.substring(0, 3);
     }
     if (input.length > 3) {
-      formatted = formatted + " (" + input.substring(3, 6) + ")"; // Далі три цифри в дужках
+      formatted = formatted + " (" + input.substring(3, 6) + ")";
     }
     if (input.length > 6) {
-      formatted = formatted + " " + input.substring(6, 9); // Далі три цифри
+      formatted = formatted + " " + input.substring(6, 9);
     }
     if (input.length > 9) {
-      formatted = formatted + "-" + input.substring(9, 12); // І кінцеві чотири цифри
+      formatted = formatted + "-" + input.substring(9, 12);
     }
 
     // Встановлюємо форматоване значення назад в інпут
@@ -84,4 +82,11 @@ document.addEventListener("click", (e) => {
     menu.classList.remove("menu-transform");
     body.classList.remove("none-scroll");
   }
+});
+let listMenu = document.querySelectorAll(".list-menu");
+listMenu.forEach((itemList, index) => {
+  listMenu[index].addEventListener("click", () => {
+    menu.classList.remove("menu-transform");
+    body.classList.remove("none-scroll");
+  });
 });
