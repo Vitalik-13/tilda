@@ -50,7 +50,8 @@
             <form action="" class="form">
               <div class="input-container">
                 <label for="name" class="input-lable name-lablel">Ваше имя</label>
-                <input type="text" id="name" class="input" />
+                <input type="text" id="name" class="input" required />
+                
               </div>
               <div class="phone-input-container">
                 <input
@@ -60,6 +61,7 @@
                   class="input none"
                   inputmode="numeric"
                   pattern="[0-9]*"
+                  required
                 />
                 <div class="phone-input-container">
                   <label for="phone-number" class="input-lable-phone">
@@ -70,6 +72,7 @@
                     id="phone-number"
                     class="phone-input"
                     placeholder="+380 (99)999-99-99"
+                    required
                   />
                   <div class="flag-dropdown">
                     <img
